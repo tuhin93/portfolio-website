@@ -1,16 +1,24 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .primay_text {
     color: #FD6E0A;
 }
 
+.header {
+    background-color: #FFF8F3;
+
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+    margin: 30px 30px 50px 150px;
+    ;
 }
 
 nav>h3 {
@@ -43,5 +51,15 @@ nav>ul>li>a {
     font-weight: 700;
     font-size: 20px;
     padding: 15px 35px;
+}
 
+.banner {
+    padding: 30px 30px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner_image {
+    width: 584px;
+    height: 676px;
 }
