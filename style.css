@@ -1,8 +1,47 @@
-body {
+* {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-header {
+.primay_text {
+    color: #FD6E0A;
+}
+
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav>h3 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+.primary_button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFFFFF;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+
 }
